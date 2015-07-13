@@ -1,0 +1,12 @@
+create table weather(
+ID int unsigned not null auto_increment primary key,
+province char(10),
+city varchar(50),
+country varchar(50),
+time DATETIME,
+temperature INT,
+wind_direction varchar(3),
+wind_level INT,
+precipitation varchar(10),
+relative_humidity INT
+);
